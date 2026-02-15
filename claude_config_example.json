@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "jira": {
+      "command": "python",
+      "args": ["/Users/YOUR_USERNAME/jira-mcp-server/server.py"],
+      "env": {
+        "JIRA_URL": "https://issues.myorg.com",
+        "JIRA_DEFAULT_PROJECT": "MYTEAM"
+      }
+    }
+  }
+}
